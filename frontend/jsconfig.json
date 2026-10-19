@@ -1,0 +1,7 @@
+// frontend/jsconfig.json
+{
+  "compilerOptions": {
+    "paths": { "@/*": ["./src/*"] }
+  },
+  "include": ["src"]
+}

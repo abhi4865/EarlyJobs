@@ -1,0 +1,70 @@
+# .gitignore  (earlyjobs/.gitignore)
+
+# ---------- Dependencies ----------
+node_modules/
+.pnp
+.pnp.js
+
+# ---------- Environment variables / secrets ----------
+.env
+.env.*
+!.env.example
+
+# ---------- Build output ----------
+dist/
+build/
+out/
+.vite/
+.cache/
+.parcel-cache/
+.next/
+coverage/
+
+# ---------- Logs ----------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------- Runtime / temp files ----------
+pids/
+*.pid
+*.seed
+tmp/
+temp/
+*.tmp
+*.tsbuildinfo
+
+# ---------- Uploads (user-generated files) ----------
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ---------- Editor / IDE ----------
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.swp
+*.swo
+
+# ---------- OS files ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ---------- Local databases / keys ----------
+*.sqlite
+*.sqlite3
+*.pem
+*.key
+*.crt
+
+# ---------- Package manager extras ----------
+.npm/
+.yarn/*
+!.yarn/patches
+!.yarn/releases
