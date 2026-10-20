@@ -12,8 +12,6 @@ import { Field, Input } from "@/components/common/Fields";
 const DEMO_PASSWORD = "password123";
 const DEMO_USERS = [
   { label: "Recruiter", email: "abhishek.ybit@gmail.com" },
-  { label: "Hiring Manager", email: "sneha.verma@earlyjobs.com" },
-  { label: "Admin", email: "rahul.mehra@earlyjobs.com" },
 ];
 
 function DemoLogins({ onPick }) {
