@@ -63,7 +63,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-[#0a1235] via-[#14205a] to-indigo-700 p-4">
+    <div className="flex min-h-screen items-center justify-center bg-linear-to-br from-[#0a1235] via-[#14205a] to-indigo-700 p-4">
       <div className="w-full max-w-md rounded-2xl bg-white p-8 shadow-2xl">
         <div className="mb-6 flex items-center gap-2.5"><Rocket className="h-8 w-8 text-indigo-600" /><span className="text-2xl font-semibold text-slate-900">EarlyJobs</span></div>
         <h1 className="text-xl font-bold text-slate-900">Sign in to your account</h1>
