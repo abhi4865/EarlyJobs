@@ -29,7 +29,7 @@ function DemoLogins({ onPick }) {
           </li>
         ))}
       </ul>
-      <p className="mt-3 flex items-start gap-1.5 text-xs text-amber-700"><TriangleAlert className="mt-0.5 h-3.5 w-3.5 shrink-0" /> For testing only. Remove before sharing or deploying.</p>
+      <p className="mt-3 flex items-start gap-1.5 text-xs text-amber-700"><TriangleAlert className="mt-0.5 h-3.5 w-3.5 shrink-0" /> For the convenience of evaluators only.</p>
     </div>
   );
 }
